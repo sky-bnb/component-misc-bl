@@ -51,6 +51,7 @@ h4 {
 
 .strongColor {
   color: #368a8f;
+  font-weight: 600;
 }
 
 .languages {
@@ -77,8 +78,8 @@ h4 {
 }
 
 .border {
-  margin-top: 0px;
-  margin-bottom: 16px;
+  margin-top: 3px;
+  margin-bottom: 23px;
 }
 
 .line {
@@ -89,3 +90,33 @@ h4 {
   border-left: 1px;
 }
 
+.neighborhood {
+  margin: 0rem 9rem 0rem 9rem;
+}
+
+
+.neighborhood h2 {
+  margin: 30px 0px 15px 0px;
+}
+
+.living {
+  margin: 15px 0px 15px 0px;
+}
+
+.readMore {
+  margin: 18px 0px 18px 0px;
+  color: #368a8f;
+  font-weight: 600;
+}
+
+.policies {
+  margin: 0rem 9rem 0rem 9rem;
+}
+
+.policies h2 {
+  margin: 27px 0px 15px 0px;
+}
+
+.rules {
+  margin: 8px 0px 8px 0px
+}
