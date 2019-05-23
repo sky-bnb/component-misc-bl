@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable camelcase */
 /* eslint-disable max-len */
 import React from 'react';
@@ -21,6 +22,12 @@ class App extends React.Component {
         center: { lat: 37.7749300, lng: -122.4194200 },
       };
       const map = new window.google.maps.Map(document.getElementById('map'), options);
+
+      const marker = new google.maps.Marker({
+        position: { lat: 37.7749300, lng: -122.4194200 },
+        map,
+        title: 'Hello World!',
+      });
     } else {
       alert('script not loaded');
     }
