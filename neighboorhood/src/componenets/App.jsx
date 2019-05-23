@@ -1,5 +1,8 @@
+/* eslint-disable camelcase */
 /* eslint-disable max-len */
 import React from 'react';
+import scriptLoader from 'react-async-script-loader';
+import { google_API } from '../../server/google-api';
 import '../App.css';
 
 class App extends React.Component {
@@ -8,6 +11,19 @@ class App extends React.Component {
     this.state = {
 
     };
+  }
+
+  componentWillUpdate({ isScriptLoadSucceed }) {
+    if (isScriptLoadSucceed) {
+      const markers = [];
+      const options = {
+        zoom: 12,
+        center: { lat: 37.7749300, lng: -122.4194200 },
+      };
+      const map = new window.google.maps.Map(document.getElementById('map'), options);
+    } else {
+      alert('script not loaded');
+    }
   }
 
   render() {
@@ -99,32 +115,26 @@ class App extends React.Component {
           <h2>
           The neighborhood
           </h2>
-
           <div>
             <strong>
             Features
             </strong>
             · diverse · the grove · safe · koreatown · nightlife · architecture
           </div>
-
           <div className="living">
           Living The Dream’s home is located in West Hollywood, California, United States.
           </div>
-
           <div>
           The house is located in one of the best area of Los Angeles—the heart of West Hollywood. Walk to Melrose Avenue, or take a few minutes drive to Beverly Hills, the Grove, farmers markets, and much more.
           </div>
-
           <div className="readMore">
             <strong>
             Read more about the neighborhood
             </strong>
           </div>
-
           <div className="googleMap">
-            Map Here
+            <div id="map" />
           </div>
-
           <div>
           Exact location information is provided after a booking is confirmed.
           </div>
@@ -134,7 +144,6 @@ class App extends React.Component {
             &nbsp;
             </div>
           </div>
-
         </div>
         <div className="policies">
           <h2>
@@ -155,20 +164,17 @@ class App extends React.Component {
             <div className="rules">
             Check-in is anytime after 4PM and check out by 11AM
             </div>
-
             <div>
               <strong className="strongColor">
                Read all rules
               </strong>
             </div>
           </div>
-
           <div className="border">
             <div className="line">
               &nbsp;
             </div>
           </div>
-
           <div>
             <h4>
                 Cancellations
@@ -183,37 +189,33 @@ class App extends React.Component {
               After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.
               </div>
               <div>
-                <strong className="strongColor">
+                <strong className="strong">
                  Read more about the policy
                 </strong>
               </div>
-
             </div>
           </div>
-
           <div className="border">
             <div className="line">
               &nbsp;
             </div>
           </div>
-
           <div>
             <strong className="strongColor">
               Report this listing
             </strong>
           </div>
-
           <div className="border">
             <div className="line">
               &nbsp;
             </div>
           </div>
-
-
         </div>
       </div>
     );
   }
 }
 
-export default App;
+export default scriptLoader(
+  [`https://maps.googleapis.com/maps/api/js?key=${google_API}`],
+)(App);

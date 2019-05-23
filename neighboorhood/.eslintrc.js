@@ -26,6 +26,7 @@ module.exports = {
         "comma-dangle": ["error"],
         "no-console": "off",
         "no-undef": "off",
-        "react/prop-types": "off"
+        "react/prop-types": "off",
+        "no-global-assign": "off"
     }
 };
