@@ -7,70 +7,79 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
-/* 
-.reviewStar {
-  margin: 0px;
-  word-wrap: break-word;
-  font-size: 24px;
-  font-weight: 740;
-  line-height: 1.25em;
-  color: #484848;
+
+.hostProfile {
+  margin: 0rem 9rem 0rem 9rem;
 }
 
-.topReview {
+.host {
   display: flex;
   justify-content: space-between;
-  margin: 8px 8px 20px 8px;
 }
 
-.houseStars {
+img {
+  height: 65px;
+  border-radius: 5px
+}
+
+h2 {
+  margin: 5px 0px 7px 0px;
+}
+
+.verified {
   display: flex;
-  align-items: center;
+  margin: 10px 0px 12px 0px;
 }
 
-.numReviews {
-  margin: 0px 20px 0px 0px;
+.fas.fa-star {
+  font-size: 12px;
+  margin-right: 10px;
 }
 
-.magnifi {
-  padding: 7px;
+.fas.fa-check-circle {
+  font-size: 12px;
+  margin-right: 10px;
 }
 
-.search {
-  display: flex;
-  align-items: center;
-  color: #b9b9b9;
-  border: solid #ebebeb;
-  border-radius: 5px;
-  border-width: 1px;
+.verifiedCheck {
+  margin-left: 14px;
 }
 
-.find {
-  display: flex;
-  align-items: center;
-  color: #b9b9b9;
-  border: solid #348489;
-  border-radius: 5px;
-  border-width: 1px;
+h4 {
+  margin-bottom: 0px
 }
 
+.strongColor {
+  color: #368a8f;
+  font-weight: 600;
+}
 
-input {
-  width: 165px;
-  height: 30px;
-  font-weight: 500;
+.languages {
+  margin: 15px 0px 10px 0px;
+}
+
+.response {
+  margin: 7px 0px 7px 0px;
+}
+
+.time {
+  margin: 7px 0px 7px 0px;
+}
+
+.contact {
+  padding: 7px 12px 7px 12px;
+  border-radius: 6px;
+  background-color: white;
+  border: solid #368a8f;
   font-size: 15px;
-  border: none;
-  outline: none;
-  color: #696969
-}
-::-webkit-input-placeholder {
-  color: #909090
+  font-weight: 600;
+  border-width: 1px;
+  color: #368a8f;
 }
 
 .border {
-  margin-top: -16px;
-  margin-bottom: 16px;
+  margin-top: 3px;
+  margin-bottom: 23px;
 }
 
 .line {
@@ -81,38 +90,33 @@ input {
   border-left: 1px;
 }
 
-.allStars {
-  display: flex;
-  justify-content: center;
+.neighborhood {
+  margin: 0rem 9rem 0rem 9rem;
 }
 
-.leftStars {
-  margin-right: 20px;
+
+.neighborhood h2 {
+  margin: 30px 0px 15px 0px;
 }
 
-.allReviews {
-  margin-top: 25px;
+.living {
+  margin: 15px 0px 15px 0px;
 }
 
-.bottomNav {
-  margin: 0px 0px 90px 0px;
+.readMore {
+  margin: 18px 0px 18px 0px;
+  color: #368a8f;
+  font-weight: 600;
 }
 
-.searchFilter {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 14px;
+.policies {
+  margin: 0rem 9rem 0rem 9rem;
 }
 
-.backToReview {
-  color: #348489;
-  cursor: pointer;
+.policies h2 {
+  margin: 27px 0px 15px 0px;
 }
 
-.backToReview:hover {
-  color: #348489;
-  cursor: pointer;
-  text-decoration: underline;
+.rules {
+  margin: 8px 0px 8px 0px
 }
- */
