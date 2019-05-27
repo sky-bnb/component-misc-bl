@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 /* eslint-disable no-unused-vars */
 /* eslint-disable camelcase */
 /* eslint-disable max-len */
@@ -18,7 +19,7 @@ class App extends React.Component {
     if (isScriptLoadSucceed) {
       const markers = [];
       const options = {
-        zoom: 12,
+        zoom: 14,
         center: { lat: 37.7749300, lng: -122.4194200 },
       };
       const map = new window.google.maps.Map(document.getElementById('map'), options);
