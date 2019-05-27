@@ -26,7 +26,6 @@ class App extends React.Component {
       const marker = new google.maps.Marker({
         position: { lat: 37.7749300, lng: -122.4194200 },
         map,
-        title: 'Hello World!',
       });
     } else {
       alert('script not loaded');
