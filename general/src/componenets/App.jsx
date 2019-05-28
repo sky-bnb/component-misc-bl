@@ -9,9 +9,11 @@ class App extends React.Component {
     super();
     this.state = {
       toggle: false,
+      moduleWin: false,
 
     };
     this.toggleShow = this.toggleShow.bind(this);
+    this.moduleShow = this.moduleShow.bind(this);
   }
 
   toggleShow() {
@@ -21,12 +23,152 @@ class App extends React.Component {
     } else {
       this.setState({ toggle: true });
     }
-    console.log('hi');
+  }
+
+  moduleShow() {
+    const { moduleWin } = this.state;
+    if (moduleWin) {
+      this.setState({ moduleWin: false });
+    } else {
+      this.setState({ moduleWin: true });
+    }
   }
 
 
   render() {
-    const { toggle } = this.state;
+    const { toggle, moduleWin } = this.state;
+    const popUp = (
+      <div className="modalAm">
+        <div className="amenitiesContent">
+          <div className="leaveModal" onClick={this.moduleShow}>
+            x
+          </div>
+          <h2>
+            Amenities
+          </h2>
+          <div className="basic">
+            <h3>
+            Basic
+            </h3>
+            <div>
+              Wifi
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Fireplace
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Air condition
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Heating
+            </div>
+          </div>
+          <div className="dining">
+            <h3>
+              Dining
+            </h3>
+            <div>
+              Kitchen
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Refrigerator
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Stove
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Cooking Basics
+            </div>
+          </div>
+          <div className="bedAndBath">
+            <h3>
+            Bed and bath
+            </h3>
+            <div>
+              Hair Dryer
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Shampoo
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Bed linens
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Towels
+            </div>
+          </div>
+          <div className="safety">
+            <h3>
+              Safety features
+            </h3>
+            <div>
+              Fire extinguisher
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              Carbon monoxide detector
+            </div>
+            <div className="border">
+              <div className="line">
+              &nbsp;
+              </div>
+            </div>
+            <div>
+              First aid kit
+            </div>
+          </div>
+        </div>
+      </div>
+    );
     return (
       <div>
         <div className="summary">
@@ -188,6 +330,64 @@ class App extends React.Component {
               <div className="line">
               &nbsp;
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="amenities">
+          <div>
+            <strong>
+              Ameneties
+            </strong>
+            <div className="amenitiesContainer">
+              <div className="parking">
+                <div className="topLeft">
+                  <div className="icons">
+                    <i className="fas fa-parking" />
+                  </div>
+                  <div>
+                  Free parking on premises
+                  </div>
+                </div>
+                <div className="topLeft">
+                  <div className="icons">
+                    <i className="fas fa-utensils" />
+                  </div>
+                  <div>
+                  Kitchen
+                  </div>
+                </div>
+              </div>
+              <div className="wifi">
+                <div className="topLeft">
+                  <div className="icons">
+                    <i className="fas fa-wifi" />
+                  </div>
+                  <div>
+                  Wifi
+                  </div>
+                </div>
+                <div className="topLeft">
+                  <div className="icons">
+                    <i className="fas fa-tv" />
+                  </div>
+                  <div>
+                  TV
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="strongColor">
+              <strong onClick={this.moduleShow}>
+                Show all 10 amenities
+              </strong>
+            </div>
+            {moduleWin ? popUp : ''}
+          </div>
+          <div className="border">
+            <div className="line">
+            &nbsp;
             </div>
           </div>
         </div>

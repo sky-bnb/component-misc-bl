@@ -98,6 +98,89 @@ h1 {
   margin-top: 25px
 }
 
+.amenitiesContainer {
+  display: flex;
+}
+
+.topLeft {
+  display: flex;
+  padding: 2px;
+  margin-bottom: 15px;
+  color: #6b6b6b;
+}
+
+.icons {
+  padding-right: 11px;
+  padding-top: 2px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  min-width: 15px;
+  padding-top: 5px;
+}
+
+.wifi {
+  margin-left: 6rem;
+}
+
+strong {
+  cursor: pointer;
+}
+
+.strong:hover {
+  text-decoration: underline;
+}
+
+.basic h3 {
+  margin-top: 25px;
+  margin-bottom: 25px
+}
+
+.dining h3 {
+  margin-top: 45px;
+  margin-bottom: 25px
+}
+
+.bedAndBath h3 {
+  margin-top: 45px;
+  margin-bottom: 25px
+}
+
+.safety h3 {
+  margin-top: 45px;
+  margin-bottom: 25px
+}
+
+
+.modalAm {
+  position: fixed;
+  z-index: 1;
+  padding-top: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:  rgba(255, 255, 255, 0.65);
+}
+
+.amenitiesContent {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #dfdfdf;
+  width: 80%;
+  max-width: 35rem;
+  padding: 1rem 2rem 4rem 2rem;
+  box-shadow: 0 0 20px #d2d2d2;
+}
+
+.leaveModal {
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 1;  
+  color: #929292;
+}
 
 /* 
 .hostProfile {
