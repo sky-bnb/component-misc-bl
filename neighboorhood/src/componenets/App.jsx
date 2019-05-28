@@ -207,7 +207,7 @@ class App extends React.Component {
               &nbsp;
             </div>
           </div>
-          <div>
+          {/* <div>
             <strong className="strongColor">
               Report this listing
             </strong>
@@ -216,7 +216,7 @@ class App extends React.Component {
             <div className="line">
               &nbsp;
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );
