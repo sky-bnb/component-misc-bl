@@ -47,7 +47,7 @@ class App extends React.Component {
               </div>
             </div>
             <div>
-              <img src="https://cdn.acidcow.com/pics/20170117/pretty_girls_02.jpg" alt="" />
+              <img src="https://marriedbiography.com/wp-content/uploads/2017/03/Jessica-Burciaga.jpg" alt="" />
             </div>
           </div>
           <div className="verified">
