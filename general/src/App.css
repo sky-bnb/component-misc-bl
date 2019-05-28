@@ -2,12 +2,104 @@ body {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-size: 16px;
   line-height: 1.43;
-  color: #484848;
+  color: #525252;
   background-color: #fff;
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
 
+#app {
+  margin: 1rem 3rem 0rem 3rem;
+}
+
+img {
+  height: 65px;
+  border-radius: 5px
+}
+
+h1 {
+  margin: 0px 0px 0px 0px;
+}
+
+.house {
+  width: 70%;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.border {
+  margin-top: 3px;
+  margin-bottom: 23px;
+}
+
+.line {
+  border: solid #ebebeb;
+  border-width: 1px;
+  border-top: 1px;
+  border-right: 1px;
+  border-left: 1px;
+}
+
+.villa {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding-right: 11px;
+  padding-top: 2px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  min-width: 15px;
+  padding-top: 5px;
+}
+
+.bedroom {
+  display: inline-flex;
+}
+
+.guests {
+  margin-right: 20px;
+}
+
+.highlight {
+  display: flex;
+}
+
+.strongColor {
+  color: #368a8f;
+  font-weight: 600;
+  
+}
+
+.pair {
+  margin-top: 15px
+}
+
+.none {
+  display: none;
+}
+
+.show {
+  visibility: visible;
+  margin-bottom: 20px;
+}
+
+.readMoreSpace {
+  margin-top: 25px;
+}
+
+.contactHost {
+  margin-top: 25px
+}
+
+
+/* 
 .hostProfile {
   margin: 0rem 9rem 0rem 9rem;
 }
@@ -17,10 +109,7 @@ body {
   justify-content: space-between;
 }
 
-img {
-  height: 65px;
-  border-radius: 5px
-}
+
 
 h2 {
   margin: 5px 0px 7px 0px;
@@ -49,10 +138,7 @@ h4 {
   margin-bottom: 0px
 }
 
-.strongColor {
-  color: #368a8f;
-  font-weight: 600;
-}
+
 
 .languages {
   margin: 15px 0px 10px 0px;
@@ -75,19 +161,6 @@ h4 {
   font-weight: 600;
   border-width: 1px;
   color: #368a8f;
-}
-
-.border {
-  margin-top: 3px;
-  margin-bottom: 23px;
-}
-
-.line {
-  border: solid #ebebeb;
-  border-width: 1px;
-  border-top: 1px;
-  border-right: 1px;
-  border-left: 1px;
 }
 
 .neighborhood {
@@ -126,4 +199,4 @@ h4 {
   width: 595px;
   margin-bottom: 10px;
   margin-top: 30px;
-}
+} */
