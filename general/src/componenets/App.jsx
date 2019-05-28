@@ -391,6 +391,19 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+        <div className="sleeping">
+          <strong>
+            Sleeping arrangements
+          </strong>
+          <div>
+            <img src="https://s3-us-west-1.amazonaws.com/sky-bnb/sleep.png" alt="" className="sleep" />
+          </div>
+          <div className="border">
+            <div className="line">
+            &nbsp;
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

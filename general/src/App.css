@@ -12,7 +12,7 @@ body {
   margin: 1rem 3rem 0rem 3rem;
 }
 
-img {
+.hostIcon img {
   height: 65px;
   border-radius: 5px
 }
@@ -100,6 +100,7 @@ h1 {
 
 .amenitiesContainer {
   display: flex;
+  margin-top: 15px;
 }
 
 .topLeft {
@@ -180,106 +181,9 @@ strong {
   font-weight: 100;
   line-height: 1;  
   color: #929292;
+  cursor: pointer;
 }
 
-/* 
-.hostProfile {
-  margin: 0rem 9rem 0rem 9rem;
+.sleep {
+  margin-top: 20px
 }
-
-.host {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-
-h2 {
-  margin: 5px 0px 7px 0px;
-}
-
-.verified {
-  display: flex;
-  margin: 10px 0px 12px 0px;
-}
-
-.fas.fa-star {
-  font-size: 12px;
-  margin-right: 10px;
-}
-
-.fas.fa-check-circle {
-  font-size: 12px;
-  margin-right: 10px;
-}
-
-.verifiedCheck {
-  margin-left: 14px;
-}
-
-h4 {
-  margin-bottom: 0px
-}
-
-
-
-.languages {
-  margin: 15px 0px 10px 0px;
-}
-
-.response {
-  margin: 7px 0px 7px 0px;
-}
-
-.time {
-  margin: 7px 0px 7px 0px;
-}
-
-.contact {
-  padding: 7px 12px 7px 12px;
-  border-radius: 6px;
-  background-color: white;
-  border: solid #368a8f;
-  font-size: 15px;
-  font-weight: 600;
-  border-width: 1px;
-  color: #368a8f;
-}
-
-.neighborhood {
-  margin: 0rem 9rem 0rem 9rem;
-}
-
-
-.neighborhood h2 {
-  margin: 30px 0px 15px 0px;
-}
-
-.living {
-  margin: 15px 0px 15px 0px;
-}
-
-.readMore {
-  margin: 18px 0px 18px 0px;
-  color: #368a8f;
-  font-weight: 600;
-}
-
-.policies {
-  margin: 0rem 9rem 0rem 9rem;
-}
-
-.policies h2 {
-  margin: 27px 0px 15px 0px;
-}
-
-.rules {
-  margin: 8px 0px 8px 0px
-}
-
-#map {
-  height: 350px;
-  width: 595px;
-  margin-bottom: 10px;
-  margin-top: 30px;
-} */
