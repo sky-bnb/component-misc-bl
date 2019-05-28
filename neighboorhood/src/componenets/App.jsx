@@ -46,12 +46,12 @@ class App extends React.Component {
                 <div className="_czm8crp">Joined in February 2017</div>
               </div>
             </div>
-            <div>
+            <div className="iconHost">
               <img src="https://marriedbiography.com/wp-content/uploads/2017/03/Jessica-Burciaga.jpg" alt="" />
             </div>
           </div>
           <div className="verified">
-            <div>
+            <div className="hostStar">
               <i className="fas fa-star" />
            100 Reviews
             </div>

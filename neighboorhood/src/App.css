@@ -8,16 +8,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.hostProfile {
-  margin: 0rem 9rem 0rem 9rem;
-}
-
 .host {
   display: flex;
   justify-content: space-between;
 }
 
-img {
+.iconHost img {
   height: 65px;
   border-radius: 5px
 }
@@ -31,7 +27,7 @@ h2 {
   margin: 10px 0px 12px 0px;
 }
 
-.fas.fa-star {
+.hostStar .fas.fa-star {
   font-size: 12px;
   margin-right: 10px;
 }
@@ -90,11 +86,6 @@ h4 {
   border-left: 1px;
 }
 
-.neighborhood {
-  margin: 0rem 9rem 0rem 9rem;
-}
-
-
 .neighborhood h2 {
   margin: 30px 0px 15px 0px;
 }
@@ -107,10 +98,6 @@ h4 {
   margin: 18px 0px 18px 0px;
   color: #368a8f;
   font-weight: 600;
-}
-
-.policies {
-  margin: 0rem 9rem 0rem 9rem;
 }
 
 .policies h2 {
