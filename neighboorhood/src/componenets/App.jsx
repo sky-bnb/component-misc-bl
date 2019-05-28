@@ -196,7 +196,7 @@ class App extends React.Component {
               After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.
               </div>
               <div>
-                <strong className="strong">
+                <strong className="strongColor">
                  Read more about the policy
                 </strong>
               </div>
