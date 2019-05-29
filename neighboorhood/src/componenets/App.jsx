@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 /* eslint-disable no-unused-vars */
 /* eslint-disable camelcase */
 /* eslint-disable max-len */
@@ -18,7 +19,7 @@ class App extends React.Component {
     if (isScriptLoadSucceed) {
       const markers = [];
       const options = {
-        zoom: 12,
+        zoom: 14,
         center: { lat: 37.7749300, lng: -122.4194200 },
       };
       const map = new window.google.maps.Map(document.getElementById('map'), options);
@@ -46,7 +47,7 @@ class App extends React.Component {
               </div>
             </div>
             <div>
-              <img src="https://cdn.acidcow.com/pics/20170117/pretty_girls_02.jpg" alt="" />
+              <img src="https://marriedbiography.com/wp-content/uploads/2017/03/Jessica-Burciaga.jpg" alt="" />
             </div>
           </div>
           <div className="verified">
