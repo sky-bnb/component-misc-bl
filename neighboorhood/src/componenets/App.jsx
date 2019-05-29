@@ -46,12 +46,12 @@ class App extends React.Component {
                 <div className="_czm8crp">Joined in February 2017</div>
               </div>
             </div>
-            <div>
+            <div className="iconHost">
               <img src="https://marriedbiography.com/wp-content/uploads/2017/03/Jessica-Burciaga.jpg" alt="" />
             </div>
           </div>
           <div className="verified">
-            <div>
+            <div className="hostStar">
               <i className="fas fa-star" />
            100 Reviews
             </div>
@@ -196,7 +196,7 @@ class App extends React.Component {
               After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.
               </div>
               <div>
-                <strong className="strong">
+                <strong className="strongColor">
                  Read more about the policy
                 </strong>
               </div>
@@ -207,7 +207,7 @@ class App extends React.Component {
               &nbsp;
             </div>
           </div>
-          <div>
+          {/* <div>
             <strong className="strongColor">
               Report this listing
             </strong>
@@ -216,7 +216,7 @@ class App extends React.Component {
             <div className="line">
               &nbsp;
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

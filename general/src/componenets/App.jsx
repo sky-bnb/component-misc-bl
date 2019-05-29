@@ -307,7 +307,7 @@ class App extends React.Component {
                 OUTDOOR:
                 </div>
                 <div>
-                The back yard of the house is large and completely private. There is a large oasis pool with waterfall & jacuzzi, fire pit and garden dinning area.
+                The back yard of the house is large and completely private. There is a large oasis pool with waterfall and jacuzzi, fire pit and garden dinning area.
                 </div>
               </div>
             </div>
