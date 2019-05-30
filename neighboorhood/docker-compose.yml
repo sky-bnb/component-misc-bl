@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  neighboorhood:
+    image: neighboorhood
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3005:3005

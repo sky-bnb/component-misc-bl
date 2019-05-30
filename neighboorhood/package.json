@@ -4,7 +4,7 @@
   "description": "Review componenet for Skybnb",
   "main": "index.jsx",
   "scripts": {
-    "start": "nodemon server/server.js",
+    "start": "node server/server.js",
     "build": "webpack --watch"
   },
   "repository": {
