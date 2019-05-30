@@ -34,7 +34,6 @@ class App extends React.Component {
     }
   }
 
-
   render() {
     const { toggle, moduleWin } = this.state;
     const popUp = (
