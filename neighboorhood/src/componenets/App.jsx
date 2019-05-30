@@ -207,16 +207,6 @@ class App extends React.Component {
               &nbsp;
             </div>
           </div>
-          {/* <div>
-            <strong className="strongColor">
-              Report this listing
-            </strong>
-          </div>
-          <div className="border">
-            <div className="line">
-              &nbsp;
-            </div>
-          </div> */}
         </div>
       </div>
     );

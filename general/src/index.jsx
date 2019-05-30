@@ -1,3 +1,6 @@
-import General from './componenets/App';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './componenets/App';
 
-window.General = General;
+ReactDOM.render(<App />, document.getElementById('general'));
+

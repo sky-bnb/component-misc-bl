@@ -1,3 +1,5 @@
-import Neighborhood from './componenets/App';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './componenets/App';
 
-window.Neighborhood = Neighborhood;
+ReactDOM.render(<App />, document.getElementById('neighborhood'));
