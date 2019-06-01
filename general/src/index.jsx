@@ -3,4 +3,3 @@ import ReactDOM from 'react-dom';
 import App from './componenets/App';
 
 ReactDOM.render(<App />, document.getElementById('general'));
-
