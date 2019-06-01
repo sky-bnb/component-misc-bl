@@ -1,12 +1,18 @@
+/* eslint-disable react/sort-comp */
+/* eslint-disable class-methods-use-this */
 /* eslint-disable no-alert */
 /* eslint-disable no-unused-vars */
 /* eslint-disable camelcase */
 /* eslint-disable max-len */
 import React from 'react';
 import scriptLoader from 'react-async-script-loader';
-import { google_API } from '../../server/google-api';
+import axios from 'axios';
+import { googleAPI } from '../../server/google-api';
 import '../App.css';
 
+const API_KEY = `${process.env.REACT_APP_WEATHER_API_KEY}`;
+
+console.log(API_KEY);
 class App extends React.Component {
   constructor() {
     super();
@@ -214,5 +220,5 @@ class App extends React.Component {
 }
 
 export default scriptLoader(
-  [`https://maps.googleapis.com/maps/api/js?key=${google_API}`],
+  [`https://maps.googleapis.com/maps/api/js?key=${googleAPI}`],
 )(App);

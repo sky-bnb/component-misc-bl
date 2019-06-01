@@ -3,3 +3,4 @@ bundle.js
 .DS_Store
 google-api.js
 package-lock.json
+.env 
